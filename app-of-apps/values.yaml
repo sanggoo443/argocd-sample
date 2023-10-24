@@ -2,6 +2,7 @@ spec:
   destination:
     server: https://kubernetes.default.svc
   source:
+    # HIGHLIGHT
     repoURL: https://github.com/arron-shin/argocd-sample.git
     targetRevision: HEAD
     path: app-of-apps
